@@ -26,5 +26,10 @@ namespace AIAS
         {
             this.InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            n_frame.Navigate(typeof(z_z));
+        }
     }
 }
